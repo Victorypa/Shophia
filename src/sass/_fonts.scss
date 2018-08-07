@@ -1,0 +1,9 @@
+@import "mixins/font-face";
+
+@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
+@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("Lato", "../fonts/LatoRegular/LatoRegular");
+@include font-face("Lato", "../fonts/LatoBold/LatoBold", bold);
+@include font-face("Playfair Display", "../fonts/PlayfairDisplay/PlayfairDisplay-Italic", 400, italic);
+@include font-face("Playfair Display", "../fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic", bold);
+@include font-face("Decor PERSONAL USE", "../fonts/KrinkesDecorPersonalUse/KrinkesDecorPERSONALUSE");

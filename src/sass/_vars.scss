@@ -1,0 +1,30 @@
+@import "mixins/mixins";
+
+$def-font: "roboto-example", sans-serif;
+$def-fnz: 16px;
+$lato: "Lato";
+$playfair: "Playfair Display";
+$dec: "Decor PERSONAL USE";
+$accent: orange;
+$text-color: #000;
+$dark-blue: #1D2124;
+$light-black: #141414;
+$black-shadow: rgba(0,0,0,.4);
+$white: #fff;
+$grey: #f2f2f2;
+$light-grey:  rgba(128, 128, 128, 0.404);
+$dark-grey: #858788;
+$beige: #d9bf8f;
+$peach: #f09d66;
+$brown: #966148;
+$lightpink:#ffe5cc;
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1200px);
+$gutter: $grid-gutter-width;
+
+// @import "../../node_modules/bootstrap/scss/mixins";
+

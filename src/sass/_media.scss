@@ -1,0 +1,223 @@
+@import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+// @import "../../node_modules/bootstrap/scss/utilities/_sizing.scss";
+// @import "../../node_modules/bootstrap/scss/_dropdown.scss";
+
+/*==========  Desktop First  ==========*/
+
+//Extra large: ≥1200px
+@include media-breakpoint-down(xl) {
+}
+
+//Large: ≥992px
+@include media-breakpoint-down(lg) {
+  .primary-caption {
+    &:before {
+      left: 15px;
+    }
+    &:after {
+      right: 15px;
+    }
+  }
+  .delivery {
+    &__item {
+      &::after {
+        top: 20px;
+        width: 50px;
+        height: 50px;
+      }
+      &--right::after {
+        right: -10px;
+      }
+      &--left::after {
+        left: -10px;
+      }
+      &--style::before, &--style::after {
+        width: 50px;
+        height: 50px;
+      }
+      &--style::before {
+        left: -10px;
+      }
+      &--style::after {
+        right: -10px;
+      }
+    }
+    &__title {
+      font-size: 15px;
+    }
+    &__desc {
+      font-size: 10px;
+    }
+  }
+  .gallery-collection__discount {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
+//Medium: ≥768px
+@include media-breakpoint-down(md) {
+  .header {
+    &__shophia {
+      justify-content: center;
+      text-align: center;
+    }
+  }
+  .delivery {
+    &__item {
+      justify-content: center;
+      padding-left: 0;
+      padding-right: 0;
+      &::after {
+        display: none;
+      }
+      &--style {
+        &::before, &::after {
+          display: none;
+        }
+        padding-left: 20px;
+      }
+      &--left {
+        .delivery__icon {
+          margin-left: -10px;
+        }
+      }
+    }
+  }
+  .social {
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .gallery {
+    &__item {
+      max-height: 425px;
+    }
+  }
+}
+
+//Small: ≥576px
+@include media-breakpoint-down(sm) {
+  .header {
+    &__top {
+      padding: 15px 10px;
+    }
+    &__top-menu {
+        display: none;
+    }
+  }
+  .burger {
+    display: block;
+  }
+  .user-nav__item {
+    border-right: none;
+  }
+
+  .sale {
+    padding: 10px 0;
+    margin-bottom: 25px;
+
+    &__wrapper {
+      min-height: 430px;
+      .btn {
+        font-size: 1rem;
+        margin-bottom: 35px;
+      }
+    }
+    &__subtitle {
+      font-size: 2.625rem;
+    }
+    &__discount {
+      font-size: 1.5rem;
+    }
+    &__shapes--diamond {
+      width: 200px;
+      height: 200px;
+    }
+    &__shapes--square {
+      height: 210px;
+    }
+    &__shapes--round {
+      height: 225px;
+    }
+  }
+
+  .carousel {
+    .owl-dots {
+      bottom: 0;
+    }
+    &__background-fourth {
+      background-position: 0 0;
+    }
+  }
+
+  .primary-caption {
+    font-size: 16px;
+  }
+  .gallery {
+    &__item {
+      max-height: 100%;
+      margin-bottom: 20px;
+      height: auto;
+    }
+  }
+  .shops, .information, .service, .footer__title {
+    text-align: center;
+  }
+}
+
+//Extra small: >0
+@include media-breakpoint-down(xs) {
+  .footer__paycards {
+    justify-content: center;
+  }
+  .primary-caption {
+    padding: 0 40px;
+    &:before,&:after {
+      width: 10px;
+      height: 10px;
+      margin-top: -5px;
+    }
+  }
+
+  .review {
+    &__text {
+      font-size: 15px;
+    }
+    &__name {
+      font-size: 18px;
+    }
+    &__position {
+      font-size: 12px;
+    }
+  }
+  
+}
+
+/*==========  Mobile First  ==========*/
+
+//Extra small: <576px
+@include media-breakpoint-up(xs) {
+
+}
+
+//Small: ≤576px
+@include media-breakpoint-up(sm) {
+
+
+}
+
+//Medium: ≤768px
+@include media-breakpoint-up(md) {
+
+}
+
+//Large: ≤992px
+@include media-breakpoint-up(lg) {
+
+}
+
+//Extra large: ≤1200px
+@include media-breakpoint-up(xl) {
+
+}
