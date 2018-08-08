@@ -17,7 +17,7 @@ $(document).ready(function(){
     autoHeight:false,
     smartSpeed: 700,
     items: 4,
-    autoplay: 3000,
+    // autoplay: 3000,
     responsiveClass: true,
     responsive: {
       0:{
