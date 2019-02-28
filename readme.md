@@ -1,4 +1,4 @@
-<h1> # Личный проект "Shophia clothing store"</h1>
+<h1>Личный проект "Shophia clothing store"</h1>
 
 <p>Author: Karuk Viktoriia</p>
 
